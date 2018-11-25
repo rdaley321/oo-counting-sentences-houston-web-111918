@@ -18,6 +18,7 @@ class String
     total = 0
     total += self.split(".").count
     total += self.split("!").count
+    total += self.split("?").count
     total
   end
 end
